@@ -4,7 +4,7 @@ theme:
     name: 'material'
     font:
       #text: Marcellus
-      text: Cousine
+      #text: Cousine
       #text: Fira Code
       #text: Oxygen Mono
     
