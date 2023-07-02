@@ -2,8 +2,7 @@ site_name: smaragdi ludus
 
 theme:
     name: 'material'
-    custom_dir: overrides
-  
+      
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
 
