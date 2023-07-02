@@ -8,11 +8,11 @@ theme:
 
     features:
       - navigation.instant
-      #- navigation.tabs
+      - navigation.tabs
       #- navigation.sections
       #- navigation.expand
       #- navigation.indexes
-      #- toc.follow
+      - toc.follow
       #- toc.integrate
       - navigation.top
 
@@ -48,7 +48,7 @@ extra_css:
 # Extensions
 markdown_extensions:
   - footnotes
-  # - attr_list
+  - attr_list
   - pymdownx.arithmatex:
       generic: true
   # - pymdownx.superfences
@@ -70,6 +70,12 @@ markdown_extensions:
 
   - toc:
       permalink: true
+
+extra:
+  #Rimuove il logo Made with Material for MkDocs
+  generator: false
+
+copyright: Copyright © 2022 - 2023 Smaragdi Ludus
 
 plugins:
   - search

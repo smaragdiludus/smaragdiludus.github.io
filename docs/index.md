@@ -1,11 +1,36 @@
-# home
+---
+title: Start?
+author: Smaragdi Ludus
+tags: [beginning]
+hide: footer, navigation, toc
+comments: true
+---
+---
+>`creation: 2022-11-12 15:10`  
+>`updated: 2022-16-12`  
+>`author: Smaragdi Ludus`
+---
 
-Publish your public notes with MkDocs
+Salve amico!
 
-## Hello World!
+In queste pagine troverai note, riflessioni, pensieri.
 
-The `index.md` in the `/docs` folder is the homepage you see here.
+Nel complesso formano uno studio, un viaggio in perenne divenire, una scoperta. Non si raggiungerà mai la fine perché una fine non c'è, così come non esiste un inizio, unico e definito. Tutto è in evoluzione tutto è mutamento.  
 
-The folders in `/docs` appear as the main sections on the navigation bar.
+Possiamo soltanto plasmare dei momenti di solidità ai quali aggrapparci. Ciò che rimane sullo sfondo è pura potenzialità.  
 
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+Sveliamo insieme ciò che si formerà in questi attimi e ciò che verrà creato, osservando, accettando ed accogliendo senza ostacolare la via. Una scoperta continua di un territorio inesplorato per il quale non esistono carte dettagliate, solamente degli indizi disseminati qua e la che provengono da un lontano passato.  
+
+Dovremmo essere noi a tracciare la mappa, ognuno la sua, unica e irripetibile. Ne scopriremo i contorni, definiremo il paesaggio e ciò che vi è contenuto, tutto come se fosse un'irresistibile gioco segreto.
+
+Scopriamoci, confrontiamoci ed aiutiamoci lungo questo meraviglioso viaggio, il più faticoso e il più affascinante che potessimo mai intraprendere.  
+
+Buona avventura!
+
+---
+[subscribe](subscribe.md){ .md-button }  
+
+
+
+
+
