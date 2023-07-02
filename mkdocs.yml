@@ -3,7 +3,11 @@ site_name: Smaragdi Ludus
 theme:
     name: 'material'
     font:
-      text: Roboto
+      #text: Marcellus
+      text: Cousine
+      #text: Fira Code
+      #text: Oxygen Mono
+    
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
 
