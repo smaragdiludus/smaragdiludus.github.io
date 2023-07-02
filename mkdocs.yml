@@ -22,7 +22,7 @@ theme:
       - search.share
       
       - header.autohide
-      #- announce.dismiss
+      - announce.dismiss
 
     palette:
     # Light mode
