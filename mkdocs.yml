@@ -8,7 +8,7 @@ theme:
       #text: Fira Code
       #text: Oxygen Mono
       #text: Open Sans
-      text: Courier
+      text: Montserrat
     
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
