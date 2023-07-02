@@ -7,9 +7,8 @@ theme:
       #text: Cousine
       #text: Fira Code
       #text: Oxygen Mono
-      #text: Open Sans
-      text: Montserrat
-    
+      text: Open Sans
+          
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
 
