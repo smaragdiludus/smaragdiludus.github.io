@@ -3,7 +3,7 @@ site_name: Smaragdi Ludus
 theme:
     name: 'material'
     font:
-      text: Roboto Mono
+      text: Roboto
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
 
@@ -81,7 +81,8 @@ copyright: Copyright © 2022 - 2023 Smaragdi Ludus
 
 plugins:
   - search
-  - roamlinks 
+  - roamlinks
+  - include_dir_to_nav 
   - tags:
       tags_file: tags.md
 
@@ -93,11 +94,7 @@ extra_javascript:
 
 nav:
     - Start?: 'index.md'
+    - notes: notesFromObsidian
     - tags: 'tags.md'
     - subscribe: 'subscribe.md'
-    - notes: '/notes/'
-#      - 2022:
-#          - novembre: 'notes/2022/novembre/note di novembre.md'
-#         - ottobre: 'notes/2022/ottobre/note di ottobre.md' 
-#          - settembre: 'notes/2022/settembre/note di settembre.md'
         
