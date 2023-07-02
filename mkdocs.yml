@@ -11,7 +11,7 @@ theme:
       - navigation.tabs
       #- navigation.sections
       #- navigation.expand
-      #- navigation.indexes
+      - navigation.indexes
       - toc.follow
       #- toc.integrate
       - navigation.top
@@ -21,7 +21,7 @@ theme:
       - search.share
       
       - header.autohide
-      #- announce.dismiss
+      - announce.dismiss
 
     palette:
     # Light mode
@@ -88,3 +88,14 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
+
+nav:
+    - Start?: 'index.md'
+    - tags: 'tags.md'
+    - subscribe: 'subscribe.md'
+#    - notes: 
+#      - 2022:
+#          - novembre: 'notes/2022/novembre/note di novembre.md'
+#         - ottobre: 'notes/2022/ottobre/note di ottobre.md' 
+#          - settembre: 'notes/2022/settembre/note di settembre.md'
+        
