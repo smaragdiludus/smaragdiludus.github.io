@@ -2,13 +2,31 @@ site_name: smaragdi ludus
 
 theme:
     name: 'material'
-    palette:
+    custom_dir: overrides
+  
+    favicon: images/favicon_2.png
+    logo: images/favicon_totalwhite.png
 
+    features:
+      #- navigation.instant
+      #- navigation.tabs
+      
+      #- navigation.sections
+      #- navigation.expand
+      
+      #- navigation.indexes
+      #- navigation.top
+      #- search.highlight
+      #- search.share
+      #- header.autohide
+      #- announce.dismiss
+
+    palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
-      accent: indigo
+      primary: default
+      accent: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -16,11 +34,14 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
-      accent: blue
+      primary: default
+      accent: default
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
