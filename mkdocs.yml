@@ -7,6 +7,7 @@ theme:
       #text: Cousine
       #text: Fira Code
       #text: Oxygen Mono
+      text: Open Sans
     
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
@@ -81,7 +82,7 @@ extra:
   #Rimuove logo Made with Material for MkDocs
   generator: false
 
-copyright: Copyright © 2022 - 2023 Smaragdi Ludus
+copyright: Copyright © 2022-2023 Smaragdi Ludus
 
 plugins:
   - search
