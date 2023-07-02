@@ -3,7 +3,7 @@ site_name: Smaragdi Ludus
 theme:
     name: 'material'
     font:
-      text: Red Hat Mono
+      text: Roboto Mono
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
 
