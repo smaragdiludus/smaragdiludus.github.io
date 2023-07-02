@@ -99,7 +99,7 @@ extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
 
 nav:
-    - Start?: 'index.md'
+    - begin?: 'index.md'
     - notes: notesFromObsidian
     - tags: 'tags.md'
     - subscribe: 'subscribe.md'

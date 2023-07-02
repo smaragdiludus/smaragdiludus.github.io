@@ -1,5 +1,5 @@
 ---
-title: Start?
+title: begin?
 author: Smaragdi Ludus by Celebra Anser
 tags: [beginning]
 hide: footer, navigation, toc, tags
