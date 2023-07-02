@@ -1,16 +1,14 @@
 ---
 title: Start?
-author: Smaragdi Ludus
+author: Smaragdi Ludus by Celebra Anser
 tags: [beginning]
-hide: footer, navigation, toc
+hide: footer, navigation, toc, tags
 comments: true
 ---
 ---
 >`creation: 2022-11-12 15:10`  
 >`updated: 2022-16-12`  
->`author: Smaragdi Ludus`
 ---
-
 Salve amico!
 
 In queste pagine troverai note, riflessioni, pensieri.

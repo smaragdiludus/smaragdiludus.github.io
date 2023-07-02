@@ -2,7 +2,8 @@ site_name: Smaragdi Ludus
 
 theme:
     name: 'material'
-          
+    font:
+      text: Courier
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
 
@@ -49,6 +50,7 @@ extra_css:
 markdown_extensions:
   - footnotes
   - attr_list
+
   - pymdownx.arithmatex:
       generic: true
   # - pymdownx.superfences
@@ -93,7 +95,7 @@ nav:
     - Start?: 'index.md'
     - tags: 'tags.md'
     - subscribe: 'subscribe.md'
-#    - notes: 
+    - notes: '/notes/'
 #      - 2022:
 #          - novembre: 'notes/2022/novembre/note di novembre.md'
 #         - ottobre: 'notes/2022/ottobre/note di ottobre.md' 

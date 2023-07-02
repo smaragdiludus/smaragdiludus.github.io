@@ -1,8 +1,8 @@
 ---
 title: subscribe
 author: Smaragdi Ludus
-tags: []
-hide: footer, navigation, toc
+tags: [beginning]
+hide: footer, navigation, toc, tags
 comments: true
 ---
 Hi friend!  
@@ -14,7 +14,7 @@ In the email are present the notes text, their links to this site, and other rel
 You will be part of all this!  
 
 ---
-[subscribe](){ .md-button }  
+[vai](https://www.mkdocs.org/user-guide/configuration/#nav){ .md-button }  
 
 
 
