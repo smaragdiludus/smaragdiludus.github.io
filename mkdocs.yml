@@ -1,7 +1,8 @@
-site_name: smaragdi ludus
+site_name: Smaragdi Ludus
 
 theme:
     name: 'material'
+    custom_dir: overrides
       
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
@@ -9,16 +10,19 @@ theme:
     features:
       - navigation.instant
       #- navigation.tabs
-      
       #- navigation.sections
       #- navigation.expand
-      
       #- navigation.indexes
-      #- navigation.top
-      #- search.highlight
-      #- search.share
-      #- header.autohide
-      #- announce.dismiss
+      #- toc.follow
+      #- toc.integrate
+      - navigation.top
+
+      - search.suggest
+      - search.highlight
+      - search.share
+      
+      - header.autohide
+      - announce.dismiss
 
     palette:
     # Light mode
@@ -71,7 +75,8 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks 
-
+  - tags:
+      tags_file: tags.md
 
 extra_javascript:
   - javascripts/mathjax.js
