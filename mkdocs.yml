@@ -7,8 +7,8 @@ theme:
       #text: Cousine
       #text: Fira Code
       #text: Oxygen Mono
-      #text: Montserrat
-      text: Plus Jakarta Sans
+      text: Montserrat
+      #text: Plus Jakarta Sans
           
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
@@ -30,7 +30,7 @@ theme:
       - header.autohide
       - announce.dismiss
 
-      - navigation.footer
+      #- navigation.footer
 
     palette:
     # Light mode

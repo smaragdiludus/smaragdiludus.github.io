@@ -2,7 +2,7 @@
 title: Attenzione a questa nota
 author: Smaragdi Ludus by Celebra Anser
 tags: [presence]
-hide: toc
+hide: 
 comments: true
 ---
 `2023-07-03`

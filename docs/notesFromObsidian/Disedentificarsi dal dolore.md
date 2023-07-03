@@ -5,14 +5,14 @@ title: Disedentificarsi dal dolore
 description:
 author: Smaragdi Ludus by Celebra Anser
 tags: [ego]
-hide: toc
+hide: 
 comments: true
 search:
   exclude:
 fromNoteID: []  
 ---
 
-<small>03-07-2023</small>
+<small>05-07-2023</small>
 # Disedentificarsi dal dolore
 
 Un dolore spinto all'estremo rende la nostra vita infelice. Quando la nostra natura non è portata all'identificazione con il dolore anche l'ego risente del carico di dolore.

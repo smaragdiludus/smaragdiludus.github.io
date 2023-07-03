@@ -4,7 +4,7 @@ date: 2023-07-03
 title: prova
 author: Smaragdi Ludus by Celebra Anser
 tags: [prova, start]
-hide: toc
+hide: 
 comments: true
 search:
   exclude:

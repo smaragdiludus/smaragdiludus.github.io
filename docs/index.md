@@ -4,16 +4,19 @@ date: 2022-11-12
 title: start?
 author: Smaragdi Ludus by Celebra Anser
 tags: []
-hide: navigation, toc, footer
+hide: 
 comments: true
 search:
   exclude: true
 fromNoteID: []  
 ---
 
-`2022-11-12`
-
----
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
 
 Salve amico!
 

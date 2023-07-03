@@ -2,16 +2,17 @@
 ID: 202307031204
 date: 2023-07-03
 title: Le emozioni egoiche positive
+description:
 author: Smaragdi Ludus by Celebra Anser
 tags: [ego]
-hide: toc
+hide: 
 comments: true
 search:
   exclude:
 fromNoteID: []  
 ---
 
-<small>07/07/23</small>   
+<small>03-07-2023</small>   
 # Le emozioni egoiche positive
 
 L'ego non genera solamente emozioni negative, è in grado di illuderci con quelle che sono false emozioni positive. False poichè ogni emozione generata dall'ego, seppur positiva, viene accompagnata da una emozione correlata opposta e contraria.

@@ -2,7 +2,7 @@
 title: subscribe
 author: Smaragdi Ludus by Celebra Anser
 tags: []
-hide: navigation, toc, footer
+hide: 
 comments: true
 search:
   exclude: true

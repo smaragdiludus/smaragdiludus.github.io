@@ -2,7 +2,7 @@
 title: Questa è la prima nota
 author: Smaragdi Ludus by Celebra Anser
 tags: [start]
-hide: toc
+hide: 
 comments: true
 ---
 
