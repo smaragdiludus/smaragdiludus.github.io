@@ -1,10 +1,11 @@
 ---
 title: subscribe
-author: Smaragdi Ludus
-tags: [beginning]
-hide: footer, navigation, toc, tags
+author: Smaragdi Ludus by Celebra Anser
+tags: []
+hide: toc
 comments: true
 ---
+
 Hi friend!  
 
 If you want to receive a notification when new Smaragdi Ludus' notes are posted feel free to subscribe. It is a small act that let us grow and we are sure you will grow with us. You are welcome!
@@ -14,7 +15,7 @@ In the email are present the notes text, their links to this site, and other rel
 You will be part of all this!  
 
 ---
-[vai](https://www.mkdocs.org/user-guide/configuration/#nav){ .md-button }  
+[vai](https://www.mkdocs.org/user-guide/configuration/#nav){ .md-button }
 
 
 

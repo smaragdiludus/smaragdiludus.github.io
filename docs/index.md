@@ -1,14 +1,15 @@
 ---
 title: start?
 author: Smaragdi Ludus by Celebra Anser
-tags: [beginning]
-hide: footer, navigation, toc, tags
+tags: []
+hide: toc
 comments: true
 ---
+
+`2022-11-12`
+
 ---
->`creation: 2022-11-12 15:10`  
->`updated: 2022-16-12`  
----
+
 Salve amico!
 
 In queste pagine troverai note, riflessioni, pensieri.
@@ -26,7 +27,7 @@ Scopriamoci, confrontiamoci ed aiutiamoci lungo questo meraviglioso viaggio, il 
 Buona avventura!
 
 ---
-[subscribe](subscribe.md){ .md-button }  
+[[subscribe]]{ .md-button } 
 
 
 

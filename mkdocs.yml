@@ -7,7 +7,8 @@ theme:
       #text: Cousine
       #text: Fira Code
       #text: Oxygen Mono
-      text: Montserrat
+      #text: Montserrat
+      text: Plus Jakarta Sans
           
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
@@ -28,6 +29,8 @@ theme:
       
       - header.autohide
       - announce.dismiss
+
+      - navigation.footer
 
     palette:
     # Light mode
@@ -87,7 +90,7 @@ copyright: Copyright © 2022-2023 Smaragdi Ludus
 plugins:
   - search
   - roamlinks
-  - include_dir_to_nav 
+  - include_dir_to_nav:
   - tags:
       tags_file: tags.md
 
