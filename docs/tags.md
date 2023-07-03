@@ -5,7 +5,3 @@ tags: []
 hide: navigation, footer
 comments: true
 ---
-
-
----
-[[subscribe]]{ .md-button }

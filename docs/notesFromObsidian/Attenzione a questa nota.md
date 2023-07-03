@@ -1,7 +1,7 @@
 ---
 title: Attenzione a questa nota
 author: Smaragdi Ludus by Celebra Anser
-tags: []
+tags: [presence]
 hide: toc
 comments: true
 ---

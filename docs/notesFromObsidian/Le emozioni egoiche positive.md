@@ -3,13 +3,14 @@ ID: 202307031204
 date: 2023-07-03
 title: Le emozioni egoiche positive
 author: Smaragdi Ludus by Celebra Anser
-tags: []
+tags: [ego]
 hide: toc
 comments: true
 search:
   exclude:
 fromNoteID: []  
 ---
+
 <small>07/07/23</small>   
 # Le emozioni egoiche positive
 
