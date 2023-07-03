@@ -5,9 +5,8 @@ tags: []
 hide: toc
 comments: true
 ---
-
 `2023-07-03`
-
+# titolo
 ---
 
 Attenzione a questa nota.
