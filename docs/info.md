@@ -1,11 +1,10 @@
 ---
-title: tags
+title: info
 author: Smaragdi Ludus by Celebra Anser
 tags: []
-hide: navigation, footer
+hide: navigation, toc, footer
 comments: true
+search:
+  exclude: true
 ---
 
-
----
-[[subscribe]]{ .md-button }
