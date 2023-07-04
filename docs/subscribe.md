@@ -16,6 +16,8 @@ In the email are present the notes text, their links to this site, and other rel
 
 You will be part of all this!  
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScre72gaYVEGKpkSO1_Ipd4dY5rBTvOkzGATDUQj202uZauOg/viewform?embedded=true" width="640" height="487" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 ---
 [vai](https://www.mkdocs.org/user-guide/configuration/#nav){ .md-button }
 
