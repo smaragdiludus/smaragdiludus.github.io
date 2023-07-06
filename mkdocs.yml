@@ -95,6 +95,6 @@ extra_javascript:
 
 nav:
     - 'index.md'
-    - notes: notesFromObsidian
+    - notes: notes
     - 'tags.md'
     - 'info.md'        
