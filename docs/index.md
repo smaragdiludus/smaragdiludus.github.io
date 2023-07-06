@@ -19,21 +19,21 @@ fromNoteID: []
   }
 </style>
 
-Salve amico!
+Hello friend!
 
-In queste pagine troverai note, riflessioni, pensieri.
+In these pages you will find notes, reflections, thoughts.
 
-Nel complesso formano uno studio, un viaggio in perenne divenire, una scoperta. Non si raggiungerà mai la fine perché una fine non c'è, così come non esiste un inizio, unico e definito. Tutto è in evoluzione tutto è mutamento.  
+Overall they form a study, a journey in constant becoming, a discovery. We will never reach the end because there is no end, just as there is no unique and defined beginning. Everything is in evolution, everything is change.
 
-Possiamo soltanto plasmare dei momenti di solidità ai quali aggrapparci. Ciò che rimane sullo sfondo è pura potenzialità.  
+We can only shape moments of solidity to hold onto. What remains in the background is pure potential.
 
-Sveliamo insieme ciò che si formerà in questi attimi e ciò che verrà creato, osservando, accettando ed accogliendo senza ostacolare la via. Una scoperta continua di un territorio inesplorato per il quale non esistono carte dettagliate, solamente degli indizi disseminati qua e la che provengono da un lontano passato.  
+Let's unveil together what will be formed in these fragments, what will be created, by observing, accepting and embracing without hindering the path. It is a continuous discovery of an unexplored territory for which there are no detailed maps, only scattered clues from a distant past.
 
-Dovremmo essere noi a tracciare la mappa, ognuno la sua, unica e irripetibile. Ne scopriremo i contorni, definiremo il paesaggio e ciò che vi è contenuto, tutto come se fosse un'irresistibile gioco segreto.
+We should be the ones to draw the map, each its own, unique and unrepeatable one. We will discover its contours, defining the landscape and what it contains, as if it were an irresistible secret game.
 
-Scopriamoci, confrontiamoci ed aiutiamoci lungo questo meraviglioso viaggio, il più faticoso e il più affascinante che potessimo mai intraprendere.  
+Let's discover ourselves, unveiling ourselves, and help each other along this wonderful journey, the most challenging and fascinating one we could ever undertake.
 
-Buona avventura!
+Have a good adventure!
 
 ---
 [subscribe](https://forms.gle/81QTtwV9HiRb8o3y6){ .md-button }
