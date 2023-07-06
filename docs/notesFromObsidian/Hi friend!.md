@@ -5,7 +5,7 @@ title: Hi friend!
 description: Meditation, Awareness, Consciuosness, Presence, I Ching, Hexagram, Synchronicity, Psychology, Carl Gustav Jung, Tao, Zen, Buddhism, Alchemy, Religion, Spirituality, Self, Ego, Shadow, Individuation Process, Koan, Notes, Obsidian, Zettelkasten.
 author: Smaragdi Ludus by Celebra Anser
 tags: [no_tag]
-hide: toc
+hide:
 comments: true
 search:
   exclude:

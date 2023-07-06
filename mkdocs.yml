@@ -14,7 +14,7 @@ theme:
     logo: images/favicon_totalwhite.png
 
     features:
-      - navigation.instant
+      #- navigation.instant
       - navigation.tabs
       #- navigation.sections
       #- navigation.expand
@@ -90,7 +90,7 @@ copyright: Copyright © 2022-2023 Smaragdi Ludus
 plugins:
   - search
   - roamlinks
-  - include_dir_to_nav:
+  - include_dir_to_nav
   - tags:
       tags_file: tags.md
 
@@ -101,8 +101,8 @@ extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
 
 nav:
-    - start?: 'index.md'
+    - 'index.md'
     - notes: notesFromObsidian
-    - tags: 'tags.md'
-    - info: 'info.md'
+    - 'tags.md'
+    - 'info.md'
         
