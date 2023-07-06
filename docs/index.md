@@ -12,13 +12,6 @@ search:
 fromNoteID: []  
 ---
 
-<style>
-  .md-typeset h1,
-  .md-content__button {
-    display: none;
-  }
-</style>
-
 Hello friend!
 
 In these pages you will find notes, reflections, thoughts.

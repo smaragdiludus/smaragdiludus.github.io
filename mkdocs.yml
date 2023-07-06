@@ -2,19 +2,12 @@ site_name: Smaragdi Ludus
 
 theme:
     name: 'material'
-    font:
-      #text: Marcellus
-      #text: Cousine
-      #text: Fira Code
-      #text: Oxygen Mono
-      #text: Montserrat
-      #text: Plus Jakarta Sans
-          
+      
     favicon: images/favicon_2.png
     logo: images/favicon_totalwhite.png
 
     features:
-      #- navigation.instant
+      - navigation.instant
       - navigation.tabs
       #- navigation.sections
       #- navigation.expand
@@ -104,5 +97,4 @@ nav:
     - 'index.md'
     - notes: notesFromObsidian
     - 'tags.md'
-    - 'info.md'
-        
+    - 'info.md'        
