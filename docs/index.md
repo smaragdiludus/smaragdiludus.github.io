@@ -38,6 +38,3 @@ Buona avventura!
 [subscribe](https://forms.gle/81QTtwV9HiRb8o3y6){ .md-button }
 
 
-
-
-
