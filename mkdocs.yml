@@ -104,6 +104,5 @@ nav:
     - start?: 'index.md'
     - notes: notesFromObsidian
     - tags: 'tags.md'
-    #- subscribe: 'subscribe.md'
     - info: 'info.md'
         
