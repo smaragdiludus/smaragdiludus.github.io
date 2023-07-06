@@ -35,7 +35,7 @@ Scopriamoci, confrontiamoci ed aiutiamoci lungo questo meraviglioso viaggio, il 
 Buona avventura!
 
 ---
-[subscribe](https://forms.gle/81QTtwV9HiRb8o3y6){ .md-button } 
+[subscribe](https://forms.gle/81QTtwV9HiRb8o3y6){ .md-button }
 
 
 

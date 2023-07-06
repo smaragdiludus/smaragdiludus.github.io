@@ -7,7 +7,7 @@ theme:
       #text: Cousine
       #text: Fira Code
       #text: Oxygen Mono
-      text: Montserrat
+      #text: Montserrat
       #text: Plus Jakarta Sans
           
     favicon: images/favicon_2.png
