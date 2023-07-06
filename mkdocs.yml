@@ -1,12 +1,12 @@
 site_name: Smaragdi Ludus
 
 theme:
-    name: 'material'
-      
-    favicon: images/favicon_2.png
-    logo: images/favicon_totalwhite.png
+   name: "material"
 
-    features:
+   favicon: images/favicon_2.png
+   logo: images/favicon_totalwhite.png
+
+   features:
       - navigation.instant
       - navigation.tabs
       #- navigation.sections
@@ -19,82 +19,82 @@ theme:
       - search.suggest
       - search.highlight
       - search.share
-      
+
       - header.autohide
       - announce.dismiss
 
       #- navigation.footer
 
-    palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: default
-      accent: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+   palette:
+      # Light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: default
+        accent: default
+        toggle:
+           icon: material/toggle-switch-off-outline
+           name: Switch to dark mode
 
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: default
-      accent: default
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+      # Dark mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: default
+        accent: default
+        toggle:
+           icon: material/toggle-switch
+           name: Switch to light mode
 
 extra_css:
-  - stylesheets/extra.css
+   - stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
-  - footnotes
-  - attr_list
+   - footnotes
+   - attr_list
 
-  - pymdownx.arithmatex:
-      generic: true
-  # - pymdownx.superfences
-  # - pymdownx.details
-  # - pymdownx.magiclink
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - def_list
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+   - pymdownx.arithmatex:
+        generic: true
+   # - pymdownx.superfences
+   # - pymdownx.details
+   # - pymdownx.magiclink
+   - pymdownx.tasklist:
+        custom_checkbox: true
+   - def_list
+   - pymdownx.critic
+   - pymdownx.caret
+   - pymdownx.keys
+   - pymdownx.mark
+   - pymdownx.tilde
+   - pymdownx.superfences:
+        custom_fences:
+           - name: mermaid
+             class: mermaid
+             format: !!python/name:pymdownx.superfences.fence_code_format
 
-  - toc:
-      permalink: true
+   - toc:
+        permalink: true
 
 extra:
-  #Rimuove logo Made with Material for MkDocs
-  generator: false
+   #Rimuove logo Made with Material for MkDocs
+   generator: false
 
-copyright: Copyright © 2022-2023 Smaragdi Ludus
+copyright: Copyright © 2022-2023 Smaragdi Ludus by Celebra anser
 
 plugins:
-  - search
-  - roamlinks
-  - include_dir_to_nav
-  - tags:
-      tags_file: tags.md
+   - search
+   - roamlinks
+   - include_dir_to_nav
+   - tags:
+        tags_file: tags.md
 
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://unpkg.com/mermaid/dist/mermaid.min.js 
+   - javascripts/mathjax.js
+   - https://polyfill.io/v3/polyfill.min.js?features=es6
+   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+   - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 nav:
-    - 'index.md'
-    - notes: notes
-    - 'tags.md'
-    - 'info.md'        
+   - "index.md"
+   - notes: notes
+   - "tags.md"
+   - "info.md"
