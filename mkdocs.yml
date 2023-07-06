@@ -78,6 +78,10 @@ extra:
    #Rimuove logo Made with Material for MkDocs
    generator: false
 
+   analytics:
+      provider: google
+      property: G-Q6ZCJHE3BS
+
 copyright: Copyright © 2022-2023 Smaragdi Ludus by Celebra Anser
 
 plugins:
