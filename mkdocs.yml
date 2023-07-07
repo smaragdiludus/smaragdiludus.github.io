@@ -89,7 +89,8 @@ plugins:
    - roamlinks
    - include_dir_to_nav
    - blog:
-        pagination_per_page: 1
+        #pagination_per_page: 1
+        #pagination: false
      #archive_toc: true
    - tags:
         tags_file: tags.md
