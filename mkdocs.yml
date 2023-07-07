@@ -8,6 +8,7 @@ theme:
 
    features:
       - navigation.instant
+      - navigation.prune
       #- navigation.tabs
       #- navigation.sections
       #- navigation.expand
@@ -89,9 +90,13 @@ plugins:
    - roamlinks
    - include_dir_to_nav
    - blog:
-        #pagination_per_page: 1
+        blog_dir: notes
+        archive: false
+        categories: false
+        pagination_per_page: 3
         #pagination: false
-     #archive_toc: true
+        #archive_toc: true
+
    - tags:
         tags_file: tags.md
 
@@ -106,4 +111,4 @@ nav:
    - "info.md"
    #- notes: notes
    - "tags.md"
-   - blog: "blog/index.md"
+   - notes: "notes/index.md"

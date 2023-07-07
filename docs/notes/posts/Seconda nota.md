@@ -1,7 +1,7 @@
 ---
 date: 2023-08-07
 tags: [nuovo]
-categories: [grid]
+categories: []
 ---
 
 # Seconda nota
