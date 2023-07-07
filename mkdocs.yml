@@ -8,10 +8,10 @@ theme:
 
    features:
       - navigation.instant
-      - navigation.tabs
+      #- navigation.tabs
       #- navigation.sections
       #- navigation.expand
-      - navigation.indexes
+      #- navigation.indexes
       - toc.follow
       #- toc.integrate
       - navigation.top
@@ -88,6 +88,9 @@ plugins:
    - search
    - roamlinks
    - include_dir_to_nav
+   - blog:
+        pagination_per_page: 1
+     #archive_toc: true
    - tags:
         tags_file: tags.md
 
@@ -99,6 +102,7 @@ extra_javascript:
 
 nav:
    - "index.md"
-   - notes: notes
-   - "tags.md"
    - "info.md"
+   #- notes: notes
+   - "tags.md"
+   - blog: "blog/index.md"
