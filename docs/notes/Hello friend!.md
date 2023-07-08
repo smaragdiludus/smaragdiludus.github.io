@@ -10,6 +10,7 @@ comments: true
 search:
    exclude:
 fromNoteID: []
+logo: images/favicon_2.png
 ---
 
 <small>06-07-2023</small>
