@@ -3,6 +3,7 @@ site_name: Smaragdi Ludus
 
 theme:
    name: "material"
+   #custom_dir: overrides
    favicon: images/favicon_3.png
    logo: images/favicon_3.png
    #logo: images/favicon_totalwhite.png
@@ -83,6 +84,11 @@ extra:
    analytics:
       provider: google
       property: G-Q6ZCJHE3BS
+
+   material:
+      header:
+         logo:
+            href: false
 
 copyright: Copyright © 2022-2023 Smaragdi Ludus by Celebra Anser
 
