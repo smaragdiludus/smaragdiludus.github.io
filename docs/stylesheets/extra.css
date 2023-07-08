@@ -3,10 +3,10 @@
     --md-accent-fg-color:#0ec3a8;
 }
 
-.md-header-logo {
-    display: none;
-  }
-  
+.md-header {
+  background-color: #36353b; 
+}
+
 /*
 .md-grid {
     max-width: 1000px; 
