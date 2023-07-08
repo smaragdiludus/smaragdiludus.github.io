@@ -10,7 +10,7 @@ comments: true
 search:
    exclude: true
 fromNoteID: []
-og_image: images/favicon_2.png
+og:image: images/favicon_2.png
 ---
 
 Hello friend!

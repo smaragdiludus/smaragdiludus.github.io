@@ -1,7 +1,13 @@
 :root > * {
-    --md-primary-fg-color:#32c6a6  ;
-    --md-accent-fg-color:#01ab91;
+    --md-primary-fg-color:#01ab91  ;
+    --md-accent-fg-color:#0ec3a8;
 }
+
+.md-header-logo {
+    display: none;
+  }
+
+  
 /*
 .md-grid {
     max-width: 1000px; 
