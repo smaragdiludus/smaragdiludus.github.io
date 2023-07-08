@@ -4,7 +4,8 @@ site_name: Smaragdi Ludus
 theme:
    name: "material"
    favicon: images/favicon_2.png
-   logo: images/favicon_totalwhite.png
+   logo: images/favicon_2.png
+   #logo: images/favicon_totalwhite.png
 
    features:
       - navigation.instant
