@@ -5,14 +5,9 @@ title: Hello friend!
 description:
 author: Smaragdi Ludus by Celebra Anser
 tags: [no_tag]
-hide:
 comments: true
-search:
-   exclude:
 fromNoteID: []
 ---
-
-<small>06-07-2023</small>
 
 # Hello friend!
 
