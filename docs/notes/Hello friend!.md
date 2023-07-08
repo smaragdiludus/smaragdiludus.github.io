@@ -2,7 +2,7 @@
 ID: 202307061016
 date: 2023-07-06
 title: Hello friend!
-description: Meditation, Awareness, Consciuosness, Presence, I Ching, Hexagram, Synchronicity, Psychology, Carl Gustav Jung, Tao, Zen, Buddhism, Alchemy, Religion, Spirituality, Self, Ego, Shadow, Individuation Process, Koan, Notes, Obsidian, Zettelkasten.
+description:
 author: Smaragdi Ludus by Celebra Anser
 tags: [no_tag]
 hide:

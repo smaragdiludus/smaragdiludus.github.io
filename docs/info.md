@@ -2,10 +2,8 @@
 title: info
 author: Smaragdi Ludus by Celebra Anser
 tags: []
-hide: 
+hide: footer
 comments: true
 search:
-  exclude: true
+   exclude: true
 ---
-
-

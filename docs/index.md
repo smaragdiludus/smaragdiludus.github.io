@@ -5,7 +5,7 @@ title: start?
 description: Journey into the depths of the mind and spirit at Smaragdi Ludus. Discover the transformative powers of meditation, I Ching, and alchemy. Immerse yourself in the wisdom of Tao philosophy, Jungian psychology, and Zen practices. Unveil the mysteries of self, ego, and shadow, while embracing synchronicity and fostering reflection. Expand your awareness and consciousness on a path of profound self-discovery and inner growth.
 author: Smaragdi Ludus by Celebra Anser
 tags: []
-hide:
+hide: footer
 comments: true
 search:
    exclude: true

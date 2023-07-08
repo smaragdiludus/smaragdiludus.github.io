@@ -3,7 +3,6 @@ site_name: Smaragdi Ludus
 
 theme:
    name: "material"
-
    favicon: images/favicon_2.png
    logo: images/favicon_totalwhite.png
 
@@ -90,13 +89,15 @@ plugins:
    - search
    - roamlinks
    - include_dir_to_nav
-   - blog:
-        blog_dir: notes
-        archive: false
-        categories: false
-        pagination_per_page: 3
-        #pagination: false
-        #archive_toc: true
+   #- blog:
+   #blog_dir: notes
+   #archive: false
+   #archive_toc: true
+   #categories: false
+   #pagination: false
+   #pagination_per_page: 5
+   #pagination_template: "$link_first ~2~ $link_last"
+   #post_readtime: false
 
    - tags:
         tags_file: tags.md
@@ -110,6 +111,6 @@ extra_javascript:
 nav:
    - "index.md"
    - "info.md"
-   #- notes: notes
    - "tags.md"
-   - notes: "notes/index.md"
+   #- notes: "notes_BLOG/index.md"
+   - notes: notes
