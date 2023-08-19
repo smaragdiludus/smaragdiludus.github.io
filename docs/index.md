@@ -30,4 +30,4 @@ Have a good adventure!
 
 ---
 
-[subscribe](https://forms.gle/81QTtwV9HiRb8o3y6){ .md-button }
+[subscribe](https://forms.gle/81QTtwV9HiRb8o3y6){ .md-button target="_blank"}
