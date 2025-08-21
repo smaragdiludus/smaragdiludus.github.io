@@ -3,6 +3,8 @@ site_name: Smaragdi Ludus
 site_author: Celebra Anser
 
 theme:
+   extra_css:
+      - stylesheets/extra.css   
    
    language: en
    name: "material"
@@ -100,8 +102,7 @@ extra:
          logo:
             href: false
    
-   extra_css:
-   - stylesheets/extra.css         
+         
             
 
 copyright: Copyright © 2022-2024 Smaragdi Ludus by Celebra Anser
