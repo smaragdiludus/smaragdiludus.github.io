@@ -1,17 +1,21 @@
 site_url: https://smaragdiludus.github.io/
 site_name: Smaragdi Ludus
+site_author: Celebra Anser
 
 theme:
+   
+   language: en
    name: "material"
-   #custom_dir: overrides
    favicon: images/favicon_3.png
-   logo: images/favicon_3.png
-   #logo: images/favicon_totalwhite.png
+   #logo: images/favicon_3.png
+   logo: images/favicon_totalwhite.png
+   
 
    features:
       - navigation.instant
       - navigation.prune
-      #- navigation.tabs
+      - navigation.tracking
+      - navigation.tabs
       #- navigation.sections
       #- navigation.expand
       #- navigation.indexes
@@ -26,7 +30,7 @@ theme:
       - header.autohide
       - announce.dismiss
 
-      #- navigation.footer
+      - navigation.footer
 
    palette:
       # Light mode
@@ -54,7 +58,7 @@ extra_css:
 markdown_extensions:
    - footnotes
    - attr_list
-
+   - tables
    - pymdownx.arithmatex:
         generic: true
    # - pymdownx.superfences
@@ -78,25 +82,33 @@ markdown_extensions:
         permalink: true
 
 extra:
+   consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
    #Rimuove logo Made with Material for MkDocs
    generator: false
 
    analytics:
       provider: google
       property: G-Q6ZCJHE3BS
-
+     
    material:
       header:
          logo:
             href: false
 
-copyright: Copyright © 2022-2023 Smaragdi Ludus by Celebra Anser
+copyright: Copyright © 2022-2024 Smaragdi Ludus by Celebra Anser
 
 plugins:
    - search
    - roamlinks
    - include_dir_to_nav
-   #- blog:
+   #- blog
    #blog_dir: notes
    #archive: false
    #archive_toc: true
@@ -116,8 +128,12 @@ extra_javascript:
    - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 nav:
-   - "index.md"
-   - "info.md"
-   - "tags.md"
-   #- notes: "notes_BLOG/index.md"
-   - notes: notes
+  - "index.md"
+  - "info.md"
+  - "tags.md"
+  - readings: contents/readings
+  - notes: contents/notes
+      
+      
+
+  

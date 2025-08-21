@@ -5,14 +5,15 @@ title: start?
 description: Journey into the depths of the mind and spirit at Smaragdi Ludus. Discover the transformative powers of meditation, I Ching, and alchemy. Immerse yourself in the wisdom of Tao philosophy, Jungian psychology, and Zen practices. Unveil the mysteries of self, ego, and shadow, while embracing synchronicity and fostering reflection. Expand your awareness and consciousness on a path of profound self-discovery and inner growth.
 author: Smaragdi Ludus by Celebra Anser
 tags: []
-hide: footer
+hide: toc, footer
 comments: true
 search:
    exclude: true
-fromNoteID: []
+fromNoteID: [202211121000]
 ---
 
 Hello friend!
+
 
 In these pages you will find notes, reflections, thoughts.
 
@@ -28,6 +29,8 @@ Let's discover ourselves, unveiling ourselves, and help each other along this wo
 
 Have a good adventure!
 
+###**[subscribe](https://forms.gle/81QTtwV9HiRb8o3y6)**
+
 ---
 
-[subscribe](https://forms.gle/81QTtwV9HiRb8o3y6){ .md-button }
+###^^Last contents:^^<br>[[Sapere chi non siamo]]<br>[[Hello friend!]]<br>[[Liberarsi dal pensiero. Abbassarsi o elevarsi]]
