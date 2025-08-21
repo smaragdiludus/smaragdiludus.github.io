@@ -2,8 +2,12 @@ site_url: https://smaragdiludus.github.io/
 site_name: Smaragdi Ludus
 site_author: Celebra Anser
 
+
 theme:
    
+   extra_css:
+      - stylesheets/extra.css 
+
    language: en
    name: "material"
    favicon: images/favicon_3.png
@@ -99,9 +103,7 @@ extra:
       header:
          logo:
             href: false
-   
-   extra_css:
-   - stylesheets/extra.css         
+           
             
 
 copyright: Copyright © 2022-2024 Smaragdi Ludus by Celebra Anser
