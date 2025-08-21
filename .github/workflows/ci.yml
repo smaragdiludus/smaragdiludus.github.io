@@ -1,27 +1,47 @@
 name: ci
+
 on:
-   push:
-      branches:
-         - master
-         - main
+  push:
+    branches:
+      - master
+      - main
+
 permissions:
-   contents: write
+  contents: write
+
 jobs:
-   deploy:
-      runs-on: ubuntu-latest
-      steps:
-         - uses: actions/checkout@v3
-         - uses: actions/setup-python@v4
-           with:
-              python-version: 3.x
-         - uses: actions/cache@v3
-           with:
-              key: ${{ github.ref }}
-              path: .cache
-         #- run: pip install mkdocs-material
-         - run: pip install mkdocs-material==9.2.0b0
-         - run: pip install mkdocs-roamlinks-plugin
-         - run: pip install mkdocs-include-dir-to-nav
-         # - run: pip install mkdocs-mermaid2-plugin
-         - run: mkdocs build
-         - run: mkdocs gh-deploy --force
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout del repository
+      - uses: actions/checkout@v3
+
+      # Setup Python
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      # Cache per pip
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+
+      # Installazione pacchetti Python
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install mkdocs-material==9.2.0b0
+          pip install mkdocs-roamlinks-plugin
+          pip install mkdocs-include-dir-to-nav
+          # pip install mkdocs-mermaid2-plugin  # attiva solo se serve
+
+      # Build del sito
+      - name: Build site
+        run: mkdocs build
+
+      # Deploy su GitHub Pages
+      - name: Deploy site
+        run: mkdocs gh-deploy --force
