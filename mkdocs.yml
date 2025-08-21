@@ -51,8 +51,6 @@ theme:
            icon: material/toggle-switch
            name: Switch to light mode
 
-extra_css:
-   - stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
@@ -81,7 +79,7 @@ markdown_extensions:
    - toc:
         permalink: true
 
-extra:
+extra: 
    consent:
     title: Cookie consent
     description: >- 
@@ -96,11 +94,15 @@ extra:
    analytics:
       provider: google
       property: G-Q6ZCJHE3BS
-     
+
    material:
       header:
          logo:
             href: false
+   
+   extra_css:
+   - stylesheets/extra.css         
+            
 
 copyright: Copyright © 2022-2024 Smaragdi Ludus by Celebra Anser
 
@@ -133,7 +135,7 @@ nav:
   - "tags.md"
   - readings: contents/readings
   - notes: contents/notes
-      
-      
+
+
 
   
