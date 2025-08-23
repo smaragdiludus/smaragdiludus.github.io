@@ -14,34 +14,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout del repository
+      # 1. Checkout del repository
       - uses: actions/checkout@v3
+        with:
+          # Ignora le cartelle inutili per velocizzare il checkout
+          fetch-depth: 1
 
-      # Setup Python
+      # 2. Setup Python
       - uses: actions/setup-python@v4
         with:
-          python-version: 3.12
+          python-version: 3.x
 
-      # Cache per pip
+      # 3. Cache per pip
       - name: Cache pip
         uses: actions/cache@v3
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
-      # Installazione pacchetti Python
+      # 4. Installazione pacchetti Python solo se cambiati
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install mkdocs-material==9.2.0b0
-          pip install mkdocs-roamlinks-plugin
-          pip install mkdocs-include-dir-to-nav
-         # pip install mkdocs-mermaid2-plugin  attiva solo se serve
+          pip install -r requirements.txt
 
-      # Build del sito
+      # 5. Build del sito pulito
       - name: Build site
         run: mkdocs build --clean
-        
-      # Deploy su GitHub Pages
+
+      # 6. Deploy su GitHub Pages forzato
       - name: Deploy site
         run: mkdocs gh-deploy --force

@@ -2,12 +2,11 @@ site_url: https://smaragdiludus.github.io/
 site_name: Smaragdi Ludus
 site_author: Celebra Anser
 
+extra_css:
+      - stylesheets/extra.css
 
 theme:
-   
-   extra_css:
-      - stylesheets/extra.css 
-
+   custom_dir: overrides
    language: en
    name: "material"
    favicon: images/favicon_3.png
@@ -34,7 +33,7 @@ theme:
       - header.autohide
       - announce.dismiss
 
-      - navigation.footer
+      #- navigation.footer
 
    palette:
       # Light mode
@@ -61,24 +60,24 @@ markdown_extensions:
    - footnotes
    - attr_list
    - tables
-   - pymdownx.arithmatex:
-        generic: true
+   - def_list
+   #- pymdownx.arithmatex:
+   #     generic: true
    # - pymdownx.superfences
    # - pymdownx.details
    # - pymdownx.magiclink
-   - pymdownx.tasklist:
-        custom_checkbox: true
-   - def_list
+   #- pymdownx.tasklist:
+   #     custom_checkbox: true
    - pymdownx.critic
    - pymdownx.caret
-   - pymdownx.keys
+   #- pymdownx.keys
    - pymdownx.mark
-   - pymdownx.tilde
-   - pymdownx.superfences:
-        custom_fences:
-           - name: mermaid
-             class: mermaid
-             format: !!python/name:pymdownx.superfences.fence_code_format
+   #- pymdownx.tilde
+   #- pymdownx.superfences:
+   #     custom_fences:
+   #        - name: mermaid
+   #          class: mermaid
+   #          format: !!python/name:pymdownx.superfences.fence_code_format
 
    - toc:
         permalink: true
@@ -103,10 +102,14 @@ extra:
       header:
          logo:
             href: false
-           
+
+   social:
+    - footer: overrides/partials/footer.html         
+   
+         
             
 
-copyright: Copyright © 2022-2024 Smaragdi Ludus by Celebra Anser
+copyright: Copyright © 2022-2025 Smaragdi Ludus by Celebra Anser
 
 plugins:
    - search
