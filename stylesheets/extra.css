@@ -22,7 +22,7 @@
 
 /* Testo principale del contenuto */
 .md-typeset {
-  font-size: 20px;   /* dimensione del testo principale */
+  font-size: 19px;   /* dimensione del testo principale */
   line-height: 1.5;  /* miglior leggibilità */
 }
 
@@ -34,7 +34,7 @@
 
 /* Header */
 .md-header__title {
-  font-size: 1.3rem; /* Aumenta la dimensione del titolo */
+  font-size: 1.2rem; /* Aumenta la dimensione del titolo */
 }
 
 .md-header__button,
