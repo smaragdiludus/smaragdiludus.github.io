@@ -646,7 +646,22 @@
         
       </main>
       
-        
+        <style>
+  /* Wrapper del Giscus */
+  .giscus-wrapper {
+    width: 95%;       /* quasi tutta la larghezza su schermi piccoli */
+    max-width: 1000px; /* larghezza massima su schermi grandi */
+    margin: 0 auto;    /* centra il contenitore */
+  }
+
+  /* Media query per monitor grandi */
+  @media (min-width: 1200px) {
+    .giscus-wrapper {
+      width: 80%;      /* meno estesa su monitor grandi */
+    }
+  }
+</style>
+
 <div class="giscus-wrapper">
   <script src="https://giscus.app/client.js"
           data-repo="smaragdiludus/smaragdiludus.github.io"
@@ -666,7 +681,7 @@
   </script>
 </div>
 
-<footer style="text-align:center; margin-top:1rem; padding:0.5rem 0; font-size:0.7rem; color:#ffffff; background-color: #01ab91;">
+<footer style="text-align:center; margin-top:1rem; padding:0.5rem 0; font-size:0.7rem; color:#ffffff; background-color: #2e2e2e;">
   Copyright © 2022-2025 Smaragdi Ludus by Celebra Anser
 </footer>
       
