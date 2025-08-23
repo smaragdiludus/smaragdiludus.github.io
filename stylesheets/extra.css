@@ -19,3 +19,41 @@
 #questi che seguono sono i colori (verde smeraldo) precedenti
 #--md-primary-fg-color:#009688;
 #--md-accent-fg-color:#00ac95;
+
+/* Testo principale del contenuto */
+.md-typeset {
+  font-size: 20px;   /* dimensione del testo principale */
+  line-height: 1.5;  /* miglior leggibilità */
+}
+
+/* Titoli 
+.md-content h1 { font-size: 2.5em; }
+.md-content h2 { font-size: 2em; }
+.md-content h3 { font-size: 1.75em; }
+*/
+
+/* Header */
+.md-header__title {
+  font-size: 1.3rem; /* Aumenta la dimensione del titolo */
+}
+
+.md-header__button,
+.md-header__icon {
+  font-size: 1rem; /* Aumenta la dimensione dei pulsanti e delle icone */
+}
+
+/* Menu laterale sinistro */
+.md-sidebar__inner {
+  font-size: 1.5rem; /* Aumenta la dimensione del testo nel menu */
+}
+
+/* Menu laterale destro (se presente) */
+.md-sidebar--secondary .md-sidebar__inner {
+  font-size: 1.5rem; /* Aumenta la dimensione del testo nel menu laterale destro */
+}
+
+
+/* Commenti Giscus */
+.giscus-wrapper {
+  font-size: 18px;
+}
