@@ -1170,39 +1170,47 @@ emergence:: </p>
 </div>
 
 <script>
-  function setupShareButton() {
+function setupShareButton() {
     const shareButton = document.getElementById("shareButton");
-    if (!shareButton) return;
+    if (!shareButton) return false;
 
     shareButton.onclick = async () => {
-      if (navigator.share) {
-        try {
-          await navigator.share({
-            title: document.title,
-            url: window.location.href
-          });
-          console.log("Condivisione riuscita");
-        } catch (err) {
-          console.log("Condivisione annullata o errore:", err);
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: document.title,
+                    url: window.location.href
+                });
+                console.log("Condivisione riuscita");
+            } catch (err) {
+                console.log("Condivisione annullata o errore:", err);
+            }
+        } else {
+            try {
+                await navigator.clipboard.writeText(window.location.href);
+                alert("Link copiato negli appunti!");
+            } catch (err) {
+                alert("Impossibile copiare il link");
+            }
         }
-      } else {
-        try {
-          await navigator.clipboard.writeText(window.location.href);
-          alert("Link copiato negli appunti!");
-        } catch (err) {
-          alert("Impossibile copiare il link");
-        }
-      }
     };
-  }
+    return true;
+}
 
-  // ✅ Esegui quando il DOM è pronto
-  document.addEventListener("DOMContentLoaded", setupShareButton);
+// Funzione che riprova finché il bottone non esiste
+function initShareButton() {
+    if (!setupShareButton()) {
+        setTimeout(initShareButton, 100); // riprova ogni 100ms
+    }
+}
 
-  // ✅ Ricollega l'evento ad ogni cambio pagina interno
-  document$.subscribe(() => {
-    setupShareButton();
-  });
+// Avvio al caricamento DOM
+document.addEventListener("DOMContentLoaded", initShareButton);
+
+// Aggiorna ad ogni navigazione interna
+document$.subscribe(() => {
+    initShareButton();
+});
 </script>
 
               </article>
