@@ -51,6 +51,8 @@
     
       <link rel="stylesheet" href="../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -227,7 +229,7 @@
   
     
   
-  Smaragdi Ludus' Latest
+  start?
 
       </a>
     </li>
@@ -350,7 +352,7 @@
         
   
   <span class="md-ellipsis">
-    Smaragdi Ludus' Latest
+    start?
   </span>
   
 
@@ -667,6 +669,7 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  
                   
   
   
@@ -677,6 +680,12 @@
 
   <h1>tags</h1>
 
+<!-- Nasconde la finestra dei commenti per questa pagina -->
+<style>
+  .giscus-wrapper {
+    display: none !important;
+  }
+</style>
 <h2 id="conoscenza"><span class="md-tag">conoscenza</span><a class="headerlink" href="#conoscenza" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../contents/notes/Sapere%20chi%20non%20siamo/">Sapere chi non siamo</a></li>
@@ -685,7 +694,7 @@
 <ul>
 <li><a href="../contents/notes/Il%20dolore%20%C3%A8%20una%20perdita%20di%20prospettiva/">Il dolore è una perdita di prospettiva</a></li>
 <li><a href="../contents/notes/Lo%20spazio%20attorno%20al%20dolore/">Lo spazio attorno al dolore</a></li>
-<li><a href="../contents/notes/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">esempio di nota a più di pagina</a></li>
+<li><a href="../contents/notes/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">Esempio di nota a più di pagina</a></li>
 <li><a href="../contents/readings/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">esempio di nota a più di pagina</a></li>
 </ul>
 <h2 id="ego"><span class="md-tag">ego</span><a class="headerlink" href="#ego" title="Permanent link">&para;</a></h2>
@@ -714,7 +723,7 @@
 <h2 id="spazio"><span class="md-tag">spazio</span><a class="headerlink" href="#spazio" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../contents/notes/Lo%20spazio%20attorno%20al%20dolore/">Lo spazio attorno al dolore</a></li>
-<li><a href="../contents/notes/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">esempio di nota a più di pagina</a></li>
+<li><a href="../contents/notes/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">Esempio di nota a più di pagina</a></li>
 <li><a href="../contents/readings/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">esempio di nota a più di pagina</a></li>
 </ul>
 <h2 id="vuoto"><span class="md-tag">vuoto</span><a class="headerlink" href="#vuoto" title="Permanent link">&para;</a></h2>
@@ -732,6 +741,39 @@
 
 
                 
+  <div style="text-align:left; margin-top:1rem;">
+  <button id="shareButton" style="background:none; border:none; cursor:pointer; font-size:1.8rem; color:inherit;">
+    <span class="material-icons">share</span>
+  </button>
+</div>
+
+<script>
+  const shareButton = document.getElementById('shareButton');
+
+  shareButton.addEventListener('click', async () => {
+    const shareData = {
+      title: document.title,
+      text: 'Dai un’occhiata a questo contenuto!',
+      url: window.location.href
+    };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+      } catch (err) {
+        console.error('Errore nella condivisione:', err);
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        alert('🔗 Link copiato negli appunti!');
+      } catch (err) {
+        alert('Non è possibile condividere questo contenuto.');
+      }
+    }
+  });
+</script>
+
               </article>
             </div>
           
@@ -768,9 +810,9 @@
           data-repo-id="R_kgDOJ4RV7Q"
           data-category="General"
           data-category-id="DIC_kwDOJ4RV7c4Cugu7"
-          data-mapping="pathname"
+          data-mapping="title"
           data-strict="0"
-          data-reactions-enabled="1"
+          data-reactions-enabled="0"
           data-emit-metadata="0"
           data-input-position="top"
           data-theme="light"

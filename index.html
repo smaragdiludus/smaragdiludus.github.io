@@ -24,7 +24,7 @@
     
     
       
-        <title>Smaragdi Ludus' Latest - Smaragdi Ludus</title>
+        <title>start? - Smaragdi Ludus</title>
       
     
     
@@ -50,6 +50,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -123,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Smaragdi Ludus' Latest
+              start?
             
           </span>
         </div>
@@ -229,7 +231,7 @@
   
     
   
-  Smaragdi Ludus' Latest
+  start?
 
       </a>
     </li>
@@ -317,6 +319,8 @@
           
             
               
+                
+              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -355,7 +359,7 @@
           
   
   <span class="md-ellipsis">
-    Smaragdi Ludus' Latest
+    start?
   </span>
   
 
@@ -366,7 +370,7 @@
         
   
   <span class="md-ellipsis">
-    Smaragdi Ludus' Latest
+    start?
   </span>
   
 
@@ -388,13 +392,6 @@
         <li class="md-nav__item">
   <a href="#sapere-chi-non-siamo-hello-friend-liberarsi-dal-pensiero-abbassarsi-o-elevarsi" class="md-nav__link">
     Sapere chi non siamo Hello friend! Liberarsi dal pensiero. Abbassarsi o elevarsi
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#start" class="md-nav__link">
-    start?
   </a>
   
 </li>
@@ -530,7 +527,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -554,13 +553,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#start" class="md-nav__link">
-    start?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#subscribe" class="md-nav__link">
     subscribe
   </a>
@@ -579,17 +571,19 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  
                   
+  
   
 
 
 
 
-  <h1>Smaragdi Ludus' Latest</h1>
+
+  <h1>start?</h1>
 
 <h3 id="sapere-chi-non-siamo-hello-friend-liberarsi-dal-pensiero-abbassarsi-o-elevarsi"><a href="contents/notes/Sapere%20chi%20non%20siamo/">Sapere chi non siamo</a><br> <a href="contents/notes/Hello%20friend%21/">Hello friend!</a><br> <a href="contents/notes/Liberarsi%20dal%20pensiero.%20Abbassarsi%20o%20elevarsi/">Liberarsi dal pensiero. Abbassarsi o elevarsi</a><a class="headerlink" href="#sapere-chi-non-siamo-hello-friend-liberarsi-dal-pensiero-abbassarsi-o-elevarsi" title="Permanent link">&para;</a></h3>
 <hr />
-<h3 id="start"><ins>start?</ins><a class="headerlink" href="#start" title="Permanent link">&para;</a></h3>
 <p>Hello friend!</p>
 <p>In these pages you will find notes, reflections, thoughts.</p>
 <p>Overall they form a study, a journey in constant becoming, a discovery. We will never reach the end because there is no end, just as there is no unique and defined beginning. Everything is in evolution, everything is change.</p>
@@ -605,9 +599,44 @@
   
 
 
+  
+
 
 
                 
+  <div style="text-align:left; margin-top:1rem;">
+  <button id="shareButton" style="background:none; border:none; cursor:pointer; font-size:1.8rem; color:inherit;">
+    <span class="material-icons">share</span>
+  </button>
+</div>
+
+<script>
+  const shareButton = document.getElementById('shareButton');
+
+  shareButton.addEventListener('click', async () => {
+    const shareData = {
+      title: document.title,
+      text: 'Dai un’occhiata a questo contenuto!',
+      url: window.location.href
+    };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+      } catch (err) {
+        console.error('Errore nella condivisione:', err);
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        alert('🔗 Link copiato negli appunti!');
+      } catch (err) {
+        alert('Non è possibile condividere questo contenuto.');
+      }
+    }
+  });
+</script>
+
               </article>
             </div>
           
@@ -644,9 +673,9 @@
           data-repo-id="R_kgDOJ4RV7Q"
           data-category="General"
           data-category-id="DIC_kwDOJ4RV7c4Cugu7"
-          data-mapping="pathname"
+          data-mapping="title"
           data-strict="0"
-          data-reactions-enabled="1"
+          data-reactions-enabled="0"
           data-emit-metadata="0"
           data-input-position="top"
           data-theme="light"
