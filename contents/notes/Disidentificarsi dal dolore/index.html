@@ -1171,7 +1171,6 @@ emergence:: [[§_Trascendere il dolore, non risolverlo, è la soluzione]]</p>
 </div>
 
 <script>
-  // Funzione che collega l'evento al pulsante
   function setupShareButton() {
     const shareButton = document.getElementById("shareButton");
     if (!shareButton) return;
@@ -1198,7 +1197,10 @@ emergence:: [[§_Trascendere il dolore, non risolverlo, è la soluzione]]</p>
     };
   }
 
-  // Esegui ogni volta che MkDocs carica o cambia pagina
+  // ✅ Primo caricamento
+  setupShareButton();
+
+  // ✅ Ricollega l'evento ad ogni cambio pagina interno
   document$.subscribe(() => {
     setupShareButton();
   });
