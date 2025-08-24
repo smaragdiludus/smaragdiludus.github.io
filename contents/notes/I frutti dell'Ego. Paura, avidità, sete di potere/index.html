@@ -1197,8 +1197,8 @@ Anche i conflitti presenti in noi stessi sono loro frutti.</p>
     };
   }
 
-  // ✅ Primo caricamento
-  setupShareButton();
+  // ✅ Esegui quando il DOM è pronto
+  document.addEventListener("DOMContentLoaded", setupShareButton);
 
   // ✅ Ricollega l'evento ad ogni cambio pagina interno
   document$.subscribe(() => {

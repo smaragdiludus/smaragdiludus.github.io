@@ -1257,8 +1257,8 @@
     };
   }
 
-  // ✅ Primo caricamento
-  setupShareButton();
+  // ✅ Esegui quando il DOM è pronto
+  document.addEventListener("DOMContentLoaded", setupShareButton);
 
   // ✅ Ricollega l'evento ad ogni cambio pagina interno
   document$.subscribe(() => {
