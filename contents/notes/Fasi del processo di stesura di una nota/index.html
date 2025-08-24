@@ -1174,10 +1174,25 @@ emergence:: </p>
 
                 
   <div style="text-align:left; margin-top:1rem;">
-  <button id="shareButton" style="background:none; border:none; cursor:pointer; font-size:1.8rem; color:inherit;">
+  <button id="shareButton" class="share-btn">
     <span class="material-icons">share</span>
   </button>
 </div>
+
+<style>
+.share-btn {
+    color: #01ab91;      /* colore icona normale */
+    font-size: 2rem;   /* dimensione icona */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.share-btn:hover {
+    color: #009688;      /* colore icona al passaggio */
+}
+</style>
 
 <script>
 function setupShareButton() {
@@ -1207,17 +1222,16 @@ function setupShareButton() {
     return true;
 }
 
-// Funzione che riprova finché il bottone non esiste
 function initShareButton() {
     if (!setupShareButton()) {
-        setTimeout(initShareButton, 100); // riprova ogni 100ms
+        setTimeout(initShareButton, 100); // riprova ogni 100ms finché il pulsante non esiste
     }
 }
 
 // Avvio al caricamento DOM
 document.addEventListener("DOMContentLoaded", initShareButton);
 
-// Aggiorna ad ogni navigazione interna
+// Aggiorna ad ogni navigazione interna (Material for MkDocs)
 document$.subscribe(() => {
     initShareButton();
 });
