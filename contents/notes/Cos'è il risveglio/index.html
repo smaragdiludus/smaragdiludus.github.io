@@ -1171,29 +1171,36 @@ emergence:: [[§_Ogni evoluzione è caratterizzata da un balzo discontinuo]]</p>
 </div>
 
 <script>
-  const shareButton = document.getElementById('shareButton');
+  // Funzione che collega l'evento al pulsante
+  function setupShareButton() {
+    const shareButton = document.getElementById("shareButton");
+    if (!shareButton) return;
 
-  shareButton.addEventListener('click', async () => {
-    const shareData = {
-      title: document.title,
-      text: 'Dai un’occhiata a questo contenuto!',
-      url: window.location.href
+    shareButton.onclick = async () => {
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: document.title,
+            url: window.location.href
+          });
+          console.log("Condivisione riuscita");
+        } catch (err) {
+          console.log("Condivisione annullata o errore:", err);
+        }
+      } else {
+        try {
+          await navigator.clipboard.writeText(window.location.href);
+          alert("Link copiato negli appunti!");
+        } catch (err) {
+          alert("Impossibile copiare il link");
+        }
+      }
     };
+  }
 
-    if (navigator.share) {
-      try {
-        await navigator.share(shareData);
-      } catch (err) {
-        console.error('Errore nella condivisione:', err);
-      }
-    } else {
-      try {
-        await navigator.clipboard.writeText(window.location.href);
-        alert('🔗 Link copiato negli appunti!');
-      } catch (err) {
-        alert('Non è possibile condividere questo contenuto.');
-      }
-    }
+  // Esegui ogni volta che MkDocs carica o cambia pagina
+  document$.subscribe(() => {
+    setupShareButton();
   });
 </script>
 
