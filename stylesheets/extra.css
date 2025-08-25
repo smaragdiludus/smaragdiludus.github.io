@@ -5,9 +5,10 @@
 
 /* Testo principale del contenuto */
 .md-typeset {
-  font-size: 20px;   /* dimensione del testo principale */
-  line-height: 1.5;  /* miglior leggibilità */
+  font-size: 20px;   
+  line-height: 1.5;  
 }
+
 
 /* Titoli 
 .md-content h1 { font-size: 2.5em; }
