@@ -1337,7 +1337,46 @@ emergence:: </p>
   </a>
 </div>
 
-<br>
+
+<style>
+  /* Wrapper del Giscus */
+  .giscus-wrapper {
+    width: 95%;       /* quasi tutta la larghezza su schermi piccoli */
+    max-width: 1000px; /* larghezza massima su schermi grandi */
+    margin: 0 auto;    /* centra il contenitore */
+  }
+
+  /* Media query per monitor grandi */
+  @media (min-width: 1200px) {
+    .giscus-wrapper {
+      width: 80%;      /* meno estesa su monitor grandi */
+    }
+  }
+
+</style>
+
+
+<div class="giscus-wrapper">
+  <br>
+  <br>
+  <script src="https://giscus.app/client.js"
+          data-repo="smaragdiludus/smaragdiludus.github.io"
+          data-repo-id="R_kgDOJ4RV7Q"
+          data-category="General"
+          data-category-id="DIC_kwDOJ4RV7c4Cugu7"
+          data-mapping="title"
+          data-strict="0"
+          data-reactions-enabled="0"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="preferred_color_scheme"
+          data-lang="en"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+  </script>
+</div>
+
 
 <style>
 .share-btn {
@@ -1412,46 +1451,7 @@ document$.subscribe(() => {
         
       </main>
       
-        <style>
-  /* Wrapper del Giscus */
-  .giscus-wrapper {
-    width: 95%;       /* quasi tutta la larghezza su schermi piccoli */
-    max-width: 1000px; /* larghezza massima su schermi grandi */
-    margin: 0 auto;    /* centra il contenitore */
-  }
-
-  /* Media query per monitor grandi */
-  @media (min-width: 1200px) {
-    .giscus-wrapper {
-      width: 80%;      /* meno estesa su monitor grandi */
-    }
-  }
-
-</style>
-
-
-<div class="giscus-wrapper">
-  <br>
-  <br>
-  <script src="https://giscus.app/client.js"
-          data-repo="smaragdiludus/smaragdiludus.github.io"
-          data-repo-id="R_kgDOJ4RV7Q"
-          data-category="General"
-          data-category-id="DIC_kwDOJ4RV7c4Cugu7"
-          data-mapping="title"
-          data-strict="0"
-          data-reactions-enabled="0"
-          data-emit-metadata="0"
-          data-input-position="top"
-          data-theme="preferred_color_scheme"
-          data-lang="en"
-          data-loading="lazy"
-          crossorigin="anonymous"
-          async>
-  </script>
-</div>
-
-<footer style="text-align:center; margin-top:1rem; padding:0.5rem 0; font-size:0.7rem; color:#aaaaaa; background-color: #353535;">
+        <footer style="text-align:center; margin-top:1rem; padding:0.5rem 0; font-size:0.7rem; color:#aaaaaa; background-color: #353535;">
   Copyright © 2022-2025 Smaragdi Ludus by Celebra Anser
 </footer>
       
