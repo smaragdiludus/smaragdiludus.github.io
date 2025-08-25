@@ -1,24 +1,7 @@
 :root > * {
   --md-primary-fg-color:#01ab91;  
   --md-accent-fg-color:#009688;
-  /*--md-primary-fg-color:#01ab91;
-    --md-accent-fg-color:#0ec3a8;*/
 }
-
-/*
-.md-header {
-  background-color: #36353b; 
-}
-
-/*
-.md-grid {
-    max-width: 1000px; 
-  }
-
-
-#questi che seguono sono i colori (verde smeraldo) precedenti
-#--md-primary-fg-color:#009688;
-#--md-accent-fg-color:#00ac95;
 
 /* Testo principale del contenuto */
 .md-typeset {
@@ -32,28 +15,87 @@
 .md-content h3 { font-size: 1.75em; }
 */
 
-/* Header */
-.md-header__title {
-  font-size: 1rem; /* Aumenta la dimensione del titolo */
-}
 
-.md-header__button,
-.md-header__icon {
-  font-size: 1rem; /* Aumenta la dimensione dei pulsanti e delle icone */
-}
-
-/* Menu laterale sinistro */
-.md-sidebar__inner {
-  font-size: 1.5rem; /* Aumenta la dimensione del testo nel menu */
-}
-
-/* Menu laterale destro (se presente) */
-.md-sidebar--secondary .md-sidebar__inner {
-  font-size: 1.5rem; /* Aumenta la dimensione del testo nel menu laterale destro */
-}
-
-
-/* Commenti Giscus */
+/*
+/* I seguenti quattro blicchi di codice servono a nascondere "o comments" prima del blocco dei commenti
+/*
+/* --- Giscus wrapper: mantiene le tue regole attuali --- */
 .giscus-wrapper {
-  font-size: 18px;
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;   /* necessario per il pseudo-element overlay */
+}
+
+/* assicurati che l'iframe si adatti */
+.giscus-wrapper iframe[src*="giscus.app"] {
+  width: 100% !important;
+  display: block;
+}
+
+/* overlay che copre la parte superiore dell'iframe (la "testata") */
+.giscus-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;               /* regola questo valore per adattarlo all'altezza dell'intestazione */
+  background: #ffffff;        /* colore della riga che copre (light mode) */
+  pointer-events: none;       /* non impedisce clic sugli elementi sottostanti */
+  z-index: 20;
+}
+
+/* colore dell'overlay in dark mode (se usi tema scuro) */
+@media (prefers-color-scheme: dark) {
+  .giscus-wrapper::before {
+    background: #111111;
+  }
+}
+
+
+/* Pulsante Share */
+.share-btn {
+  color: #01ab91;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.share-btn:hover {
+  color: #009688;
+}
+
+/* Link Subscribe */
+.subscribe-link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #01ab91;
+  text-decoration: none;
+}
+
+.subscribe-link:hover {
+  color: #009688;
+}
+
+/* Like & Dislike */
+.feedback-icons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.feedback-btn {
+  color: #01ab91;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.feedback-btn:hover {
+  color: #009688;
 }
