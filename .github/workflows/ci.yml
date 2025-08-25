@@ -46,4 +46,4 @@ jobs:
 
       # 6. Deploy su GitHub Pages forzato
       - name: Deploy site
-        run: mkdocs gh-deploy --force
+        run: mkdocs gh-deploy #--force

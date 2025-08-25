@@ -1,21 +1,46 @@
 :root > * {
   --md-primary-fg-color:#01ab91;  
   --md-accent-fg-color:#009688;
-  /*--md-primary-fg-color:#01ab91;
-    --md-accent-fg-color:#0ec3a8;*/
 }
 
-/*
-.md-header {
-  background-color: #36353b; 
+/* Testo principale del contenuto */
+.md-typeset {
+  font-size: 20px;   
+  line-height: 1.5;  
 }
 
-/*
-.md-grid {
-    max-width: 1000px; 
-  }
+
+/* Titoli 
+.md-content h1 { font-size: 2.5em; }
+.md-content h2 { font-size: 2em; }
+.md-content h3 { font-size: 1.75em; }
+*/
 
 
-#questi che seguono sono i colori (verde smeraldo) precedenti
-#--md-primary-fg-color:#009688;
-#--md-accent-fg-color:#00ac95;
+/*Share button*/
+.share-btn {
+  color: #01ab91;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.share-btn:hover {
+  color: #009688;
+}
+
+
+
+/* Link Subscribe */
+.subscribe-link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #01ab91;
+  text-decoration: none;
+}
+
+.subscribe-link:hover {
+  color: #009688;
+}

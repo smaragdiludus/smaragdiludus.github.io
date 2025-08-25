@@ -12,8 +12,10 @@ search:
 fromNoteID: [202211121000]
 ---
 
-Hello friend!
+###[[Sapere chi non siamo]]<br> [[Hello friend!]]<br> [[Liberarsi dal pensiero. Abbassarsi o elevarsi]]
+---
 
+Hello friend!
 
 In these pages you will find notes, reflections, thoughts.
 
@@ -31,6 +33,4 @@ Have a good adventure!
 
 ###**[subscribe](https://forms.gle/81QTtwV9HiRb8o3y6)**
 
----
 
-###^^Last contents:^^<br>[[Sapere chi non siamo]]<br>[[Hello friend!]]<br>[[Liberarsi dal pensiero. Abbassarsi o elevarsi]]

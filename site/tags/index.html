@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../images/favicon_3.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.2.0-b0">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
@@ -28,12 +28,13 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.0c456da8.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
+
 
     
     
@@ -51,7 +52,9 @@
     
       <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -60,9 +63,9 @@
   
   
 
-<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-Q6ZCJHE3BS"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-Q6ZCJHE3BS",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-Q6ZCJHE3BS",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-Q6ZCJHE3BS"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-Q6ZCJHE3BS",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-Q6ZCJHE3BS",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
   
-    <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
   
 
     
@@ -81,16 +84,13 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="default" data-md-color-accent="default">
   
     
-    
-      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
-    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
         
-        <a href="#conoscenza" class="md-skip">
+        <a href="#tag:conoscenza" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
     </a>
     <label class="md-header__button md-icon" for="__drawer">
       
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -132,57 +132,62 @@
     
       
         <form class="md-header__option" data-md-component="palette">
-          
-            
-            
-            
-            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="default" data-md-color-accent="default"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
-            
-              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
-              </label>
-            
-          
-            
-            
-            
-            <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="default" data-md-color-accent="default"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-            
-              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
-              </label>
-            
-          
-        </form>
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="default" data-md-color-accent="default"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="default" data-md-color-accent="default"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
       
     
     
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
           <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
             
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
           </a>
         
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
@@ -190,7 +195,7 @@
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -201,6 +206,7 @@
     </div>
   </div>
 </div>
+      
     
     
   </nav>
@@ -221,9 +227,11 @@
   
   
   
+  
     <li class="md-tabs__item">
       <a href=".." class="md-tabs__link">
         
+  
   
     
   
@@ -238,9 +246,11 @@
   
   
   
+  
     <li class="md-tabs__item">
       <a href="../info/" class="md-tabs__link">
         
+  
   
     
   
@@ -254,12 +264,14 @@
         
   
   
+  
     
   
   
     <li class="md-tabs__item md-tabs__item--active">
       <a href="./" class="md-tabs__link">
         
+  
   
     
   
@@ -274,11 +286,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../contents/readings/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/" class="md-tabs__link">
           
+  
   
   readings
 
@@ -292,11 +306,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../contents/notes/23.1-5%20Esempio%20di%20responso/" class="md-tabs__link">
           
+  
   
   notes
 
@@ -345,12 +361,15 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     start?
+    
   </span>
   
 
@@ -361,6 +380,7 @@
     
       
       
+  
   
   
   
@@ -368,8 +388,10 @@
       <a href="../info/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     info
+    
   </span>
   
 
@@ -383,6 +405,7 @@
   
   
     
+  
   
   
     <li class="md-nav__item md-nav__item--active">
@@ -394,8 +417,10 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
     tags
+    
   </span>
   
 
@@ -405,8 +430,10 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
     tags
+    
   </span>
   
 
@@ -426,64 +453,82 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#conoscenza" class="md-nav__link">
-    conoscenza
+  <a href="#tag:conoscenza" class="md-nav__link">
+    <span class="md-ellipsis">
+      conoscenza
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#dolore" class="md-nav__link">
-    dolore
+  <a href="#tag:dolore" class="md-nav__link">
+    <span class="md-ellipsis">
+      dolore
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ego" class="md-nav__link">
-    ego
+  <a href="#tag:ego" class="md-nav__link">
+    <span class="md-ellipsis">
+      ego
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#elevarsi" class="md-nav__link">
-    elevarsi
+  <a href="#tag:elevarsi" class="md-nav__link">
+    <span class="md-ellipsis">
+      elevarsi
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#iching" class="md-nav__link">
-    iChing
+  <a href="#tag:iching" class="md-nav__link">
+    <span class="md-ellipsis">
+      iChing
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#mind" class="md-nav__link">
-    mind
+  <a href="#tag:mind" class="md-nav__link">
+    <span class="md-ellipsis">
+      mind
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#no_tag" class="md-nav__link">
-    no_tag
+  <a href="#tag:no_tag" class="md-nav__link">
+    <span class="md-ellipsis">
+      no_tag
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#spazio" class="md-nav__link">
-    spazio
+  <a href="#tag:spazio" class="md-nav__link">
+    <span class="md-ellipsis">
+      spazio
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#vuoto" class="md-nav__link">
-    vuoto
+  <a href="#tag:vuoto" class="md-nav__link">
+    <span class="md-ellipsis">
+      vuoto
+    </span>
   </a>
   
 </li>
@@ -501,10 +546,18 @@
   
   
   
+  
+    
     
     
     
       
+      
+    
+    
+      
+        
+        
       
     
     <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
@@ -512,11 +565,14 @@
         
   
   
+  
     <a href="../contents/readings/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/" class="md-nav__link">
       
   
+  
   <span class="md-ellipsis">
     readings
+    
   </span>
   
 
@@ -536,10 +592,18 @@
   
   
   
+  
+    
     
     
     
       
+      
+    
+    
+      
+        
+        
       
     
     <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
@@ -547,11 +611,14 @@
         
   
   
+  
     <a href="../contents/notes/23.1-5%20Esempio%20di%20responso/" class="md-nav__link">
       
   
+  
   <span class="md-ellipsis">
     notes
+    
   </span>
   
 
@@ -593,64 +660,82 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#conoscenza" class="md-nav__link">
-    conoscenza
+  <a href="#tag:conoscenza" class="md-nav__link">
+    <span class="md-ellipsis">
+      conoscenza
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#dolore" class="md-nav__link">
-    dolore
+  <a href="#tag:dolore" class="md-nav__link">
+    <span class="md-ellipsis">
+      dolore
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ego" class="md-nav__link">
-    ego
+  <a href="#tag:ego" class="md-nav__link">
+    <span class="md-ellipsis">
+      ego
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#elevarsi" class="md-nav__link">
-    elevarsi
+  <a href="#tag:elevarsi" class="md-nav__link">
+    <span class="md-ellipsis">
+      elevarsi
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#iching" class="md-nav__link">
-    iChing
+  <a href="#tag:iching" class="md-nav__link">
+    <span class="md-ellipsis">
+      iChing
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#mind" class="md-nav__link">
-    mind
+  <a href="#tag:mind" class="md-nav__link">
+    <span class="md-ellipsis">
+      mind
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#no_tag" class="md-nav__link">
-    no_tag
+  <a href="#tag:no_tag" class="md-nav__link">
+    <span class="md-ellipsis">
+      no_tag
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#spazio" class="md-nav__link">
-    spazio
+  <a href="#tag:spazio" class="md-nav__link">
+    <span class="md-ellipsis">
+      spazio
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#vuoto" class="md-nav__link">
-    vuoto
+  <a href="#tag:vuoto" class="md-nav__link">
+    <span class="md-ellipsis">
+      vuoto
+    </span>
   </a>
   
 </li>
@@ -667,61 +752,238 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  
                   
   
-  
-
 
 
 
 
   <h1>tags</h1>
 
-<h2 id="conoscenza"><span class="md-tag">conoscenza</span><a class="headerlink" href="#conoscenza" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../contents/notes/Sapere%20chi%20non%20siamo/">Sapere chi non siamo</a></li>
-</ul>
-<h2 id="dolore"><span class="md-tag">dolore</span><a class="headerlink" href="#dolore" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../contents/notes/Il%20dolore%20%C3%A8%20una%20perdita%20di%20prospettiva/">Il dolore è una perdita di prospettiva</a></li>
-<li><a href="../contents/notes/Lo%20spazio%20attorno%20al%20dolore/">Lo spazio attorno al dolore</a></li>
-<li><a href="../contents/notes/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">esempio di nota a più di pagina</a></li>
-<li><a href="../contents/readings/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">esempio di nota a più di pagina</a></li>
-</ul>
-<h2 id="ego"><span class="md-tag">ego</span><a class="headerlink" href="#ego" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../contents/notes/Cartesio%20e%20Sartre%20si%20sbagliavano.%20I%20tre%20ego/">Cartesio e Sartre si sbagliavano. I tre ego</a></li>
-<li><a href="../contents/notes/Sapere%20chi%20non%20siamo/">Sapere chi non siamo</a></li>
-</ul>
-<h2 id="elevarsi"><span class="md-tag">elevarsi</span><a class="headerlink" href="#elevarsi" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../contents/notes/Liberarsi%20dal%20pensiero.%20Abbassarsi%20o%20elevarsi/">Liberarsi dal pensiero. Abbassarsi o elevarsi</a></li>
-</ul>
-<h2 id="iching"><span class="md-tag">iChing</span><a class="headerlink" href="#iching" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../contents/notes/23.1-5%20Esempio%20di%20responso/">23.1-5 Esempio di responso</a></li>
-<li><a href="../contents/notes/23.4.5-44%20Secondo%20esempio%20di%20responso%20I%20Ching/">23.4.5-44 Secondo esempio di responso I Ching</a></li>
-</ul>
-<h2 id="mind"><span class="md-tag">mind</span><a class="headerlink" href="#mind" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../contents/notes/Cartesio%20e%20Sartre%20si%20sbagliavano.%20I%20tre%20ego/">Cartesio e Sartre si sbagliavano. I tre ego</a></li>
-</ul>
-<h2 id="no_tag"><span class="md-tag">no_tag</span><a class="headerlink" href="#no_tag" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../contents/notes/Hello%20friend%21/">Hello friend!</a></li>
-<li><a href="../contents/notes/Questa%20%C3%A8%20una%20nuova%20nota./">Questa è una nuova nota.</a></li>
-</ul>
-<h2 id="spazio"><span class="md-tag">spazio</span><a class="headerlink" href="#spazio" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../contents/notes/Lo%20spazio%20attorno%20al%20dolore/">Lo spazio attorno al dolore</a></li>
-<li><a href="../contents/notes/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">esempio di nota a più di pagina</a></li>
-<li><a href="../contents/readings/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">esempio di nota a più di pagina</a></li>
-</ul>
-<h2 id="vuoto"><span class="md-tag">vuoto</span><a class="headerlink" href="#vuoto" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../contents/notes/Chi%20fa%20la%20differenza%20in%20questo%20mondo/">Chi fa la differenza in questo mondo</a></li>
-<li><a href="../contents/notes/Il%20dolore%20%C3%A8%20una%20perdita%20di%20prospettiva/">Il dolore è una perdita di prospettiva</a></li>
-</ul>
+<!-- Nasconde la finestra dei commenti per questa pagina -->
+<style>
+  .giscus-wrapper {
+    display: none !important;
+  }
+</style>
+
+
+  <h2 id="tag:conoscenza">
+
+
+<span class="md-tag">conoscenza</span><a class="headerlink" href="#tag:conoscenza" title="Permanent link">&para;</a></h2>
+  <ul>
+    
+      <li>
+        <a href="../contents/notes/Sapere%20chi%20non%20siamo/">
+          Sapere chi non siamo
+        </a>
+      </li>
+    
+    
+  </ul>
+
+
+
+  <h2 id="tag:dolore">
+
+
+<span class="md-tag">dolore</span><a class="headerlink" href="#tag:dolore" title="Permanent link">&para;</a></h2>
+  <ul>
+    
+      <li>
+        <a href="../contents/notes/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">
+          Esempio di nota a più di pagina
+        </a>
+      </li>
+    
+      <li>
+        <a href="../contents/notes/Il%20dolore%20%C3%A8%20una%20perdita%20di%20prospettiva/">
+          Il dolore è una perdita di prospettiva
+        </a>
+      </li>
+    
+      <li>
+        <a href="../contents/notes/Lo%20spazio%20attorno%20al%20dolore/">
+          Lo spazio attorno al dolore
+        </a>
+      </li>
+    
+      <li>
+        <a href="../contents/readings/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">
+          esempio di nota a più di pagina
+        </a>
+      </li>
+    
+    
+  </ul>
+
+
+
+  <h2 id="tag:ego">
+
+
+<span class="md-tag">ego</span><a class="headerlink" href="#tag:ego" title="Permanent link">&para;</a></h2>
+  <ul>
+    
+      <li>
+        <a href="../contents/notes/Cartesio%20e%20Sartre%20si%20sbagliavano.%20I%20tre%20ego/">
+          Cartesio e Sartre si sbagliavano. I tre ego
+        </a>
+      </li>
+    
+      <li>
+        <a href="../contents/notes/Sapere%20chi%20non%20siamo/">
+          Sapere chi non siamo
+        </a>
+      </li>
+    
+    
+  </ul>
+
+
+
+  <h2 id="tag:elevarsi">
+
+
+<span class="md-tag">elevarsi</span><a class="headerlink" href="#tag:elevarsi" title="Permanent link">&para;</a></h2>
+  <ul>
+    
+      <li>
+        <a href="../contents/notes/Liberarsi%20dal%20pensiero.%20Abbassarsi%20o%20elevarsi/">
+          Liberarsi dal pensiero. Abbassarsi o elevarsi
+        </a>
+      </li>
+    
+    
+  </ul>
+
+
+
+  <h2 id="tag:iching">
+
+
+<span class="md-tag">iChing</span><a class="headerlink" href="#tag:iching" title="Permanent link">&para;</a></h2>
+  <ul>
+    
+      <li>
+        <a href="../contents/notes/23.1-5%20Esempio%20di%20responso/">
+          23.1-5 Esempio di responso
+        </a>
+      </li>
+    
+      <li>
+        <a href="../contents/notes/23.4.5-44%20Secondo%20esempio%20di%20responso%20I%20Ching/">
+          23.4.5-44 Secondo esempio di responso I Ching
+        </a>
+      </li>
+    
+    
+  </ul>
+
+
+
+  <h2 id="tag:mind">
+
+
+<span class="md-tag">mind</span><a class="headerlink" href="#tag:mind" title="Permanent link">&para;</a></h2>
+  <ul>
+    
+      <li>
+        <a href="../contents/notes/Cartesio%20e%20Sartre%20si%20sbagliavano.%20I%20tre%20ego/">
+          Cartesio e Sartre si sbagliavano. I tre ego
+        </a>
+      </li>
+    
+    
+  </ul>
+
+
+
+  <h2 id="tag:no_tag">
+
+
+<span class="md-tag">no_tag</span><a class="headerlink" href="#tag:no_tag" title="Permanent link">&para;</a></h2>
+  <ul>
+    
+      <li>
+        <a href="../contents/notes/Hello%20friend%21/">
+          Hello friend!
+        </a>
+      </li>
+    
+      <li>
+        <a href="../contents/notes/Questa%20%C3%A8%20una%20nuova%20nota./">
+          Questa è una nuova nota.
+        </a>
+      </li>
+    
+    
+  </ul>
+
+
+
+  <h2 id="tag:spazio">
+
+
+<span class="md-tag">spazio</span><a class="headerlink" href="#tag:spazio" title="Permanent link">&para;</a></h2>
+  <ul>
+    
+      <li>
+        <a href="../contents/notes/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">
+          Esempio di nota a più di pagina
+        </a>
+      </li>
+    
+      <li>
+        <a href="../contents/notes/Lo%20spazio%20attorno%20al%20dolore/">
+          Lo spazio attorno al dolore
+        </a>
+      </li>
+    
+      <li>
+        <a href="../contents/readings/esempio%20di%20nota%20a%20pi%C3%B9%20di%20pagina/">
+          esempio di nota a più di pagina
+        </a>
+      </li>
+    
+    
+  </ul>
+
+
+
+  <h2 id="tag:vuoto">
+
+
+<span class="md-tag">vuoto</span><a class="headerlink" href="#tag:vuoto" title="Permanent link">&para;</a></h2>
+  <ul>
+    
+      <li>
+        <a href="../contents/notes/Chi%20fa%20la%20differenza%20in%20questo%20mondo/">
+          Chi fa la differenza in questo mondo
+        </a>
+      </li>
+    
+      <li>
+        <a href="../contents/notes/Il%20dolore%20%C3%A8%20una%20perdita%20di%20prospettiva/">
+          Il dolore è una perdita di prospettiva
+        </a>
+      </li>
+    
+    
+  </ul>
+
+
+
+
+
+
+
+
+  
+  
+
 
 
   
@@ -732,47 +994,130 @@
 
 
                 
+  <hr>
+
+<div style="display:flex; align-items:center; gap:1rem; margin-top:1rem;">
+  <!-- Bottone Share -->
+  <button id="shareButton" class="share-btn" style="background:none; border:none; cursor:pointer; font-size:1.5rem; color:#01ab91;">
+    <span class="material-icons">share</span>
+  </button>
+
+  <!-- Link Subscribe -->
+  <a href="https://forms.gle/81QTtwV9HiRb8o3y6" 
+     target="_blank" 
+     class="subscribe-link"
+     style="font-size:1rem; font-weight:bold; color:#01ab91; text-decoration:none;">
+    subscribe
+  </a>
+</div>
+
+<br>
+
+<style>
+.share-btn {
+    color: #01ab91;      /* colore icona normale */
+    font-size: 2rem;   /* dimensione icona */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.share-btn:hover {
+    color: #009688;      /* colore icona al passaggio */
+}
+</style>
+
+<script>
+function setupShareButton() {
+    const shareButton = document.getElementById("shareButton");
+    if (!shareButton) return false;
+
+    shareButton.onclick = async () => {
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: document.title,
+                    url: window.location.href
+                });
+                console.log("Condivisione riuscita");
+            } catch (err) {
+                console.log("Condivisione annullata o errore:", err);
+            }
+        } else {
+            try {
+                await navigator.clipboard.writeText(window.location.href);
+                alert("Link copiato negli appunti!");
+            } catch (err) {
+                alert("Impossibile copiare il link");
+            }
+        }
+    };
+    return true;
+}
+
+function initShareButton() {
+    if (!setupShareButton()) {
+        setTimeout(initShareButton, 100); // riprova ogni 100ms finché il pulsante non esiste
+    }
+}
+
+// Avvio al caricamento DOM
+document.addEventListener("DOMContentLoaded", initShareButton);
+
+// Aggiorna ad ogni navigazione interna (Material for MkDocs)
+document$.subscribe(() => {
+    initShareButton();
+});
+</script>
+
               </article>
             </div>
           
           
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
-            Back to top
-          </button>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
         
       </main>
       
         <style>
-  /* Imposta larghezza massima e centraggio dell'iframe Giscus */
+  /* Wrapper del Giscus */
   .giscus-wrapper {
-    max-width: 800px !important;
-    width: 100% !important;
+    width: 95%;       /* quasi tutta la larghezza su schermi piccoli */
+    max-width: 1000px; /* larghezza massima su schermi grandi */
+    margin: 0 auto;    /* centra il contenitore */
   }
 
-  /* Wrapper per centrare il contenuto */
-  .giscus-wrapper {
-    display: flex;
-    justify-content: center; /* centra orizzontalmente */
-    margin-left: 570px; /* sposta verso destra di 100px */
+  /* Media query per monitor grandi */
+  @media (min-width: 1200px) {
+    .giscus-wrapper {
+      width: 80%;      /* meno estesa su monitor grandi */
+    }
   }
+
 </style>
 
+
 <div class="giscus-wrapper">
+  <br>
+  <br>
   <script src="https://giscus.app/client.js"
           data-repo="smaragdiludus/smaragdiludus.github.io"
           data-repo-id="R_kgDOJ4RV7Q"
           data-category="General"
           data-category-id="DIC_kwDOJ4RV7c4Cugu7"
-          data-mapping="pathname"
+          data-mapping="title"
           data-strict="0"
-          data-reactions-enabled="1"
+          data-reactions-enabled="0"
           data-emit-metadata="0"
           data-input-position="top"
-          data-theme="light"
+          data-theme="preferred_color_scheme"
           data-lang="en"
           data-loading="lazy"
           crossorigin="anonymous"
@@ -780,28 +1125,21 @@
   </script>
 </div>
 
-<footer style="text-align:center; margin-top:1rem; padding:0.5rem 0; font-size:0.7rem; color:#ffffff; background-color: #01ab91;">
+<footer style="text-align:center; margin-top:1rem; padding:0.5rem 0; font-size:0.7rem; color:#aaaaaa; background-color: #353535;">
   Copyright © 2022-2025 Smaragdi Ludus by Celebra Anser
 </footer>
-
-
       
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
+    
       <div class="md-consent" data-md-component="consent" id="__consent" hidden>
         <div class="md-consent__overlay"></div>
         <aside class="md-consent__inner">
           <form class="md-consent__form md-grid md-typeset" name="consent">
             
-
-  
-    
-  
-
-
 
 
   
@@ -813,18 +1151,27 @@
 <div class="md-consent__settings">
   <ul class="task-list">
     
-      
+    
       
         
-        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" checked>
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
       
-      <li class="task-list-item">
-        <label class="task-list-control">
-          <input type="checkbox" name="analytics" checked>
-          <span class="task-list-indicator"></span>
-          Google Analytics
-        </label>
-      </li>
+    
+    
+      
+    
     
   </ul>
 </div>
@@ -846,28 +1193,14 @@
           </form>
         </aside>
       </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
-    
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.prune", "navigation.tracking", "navigation.tabs", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "search.share", "header.autohide", "announce.dismiss"], "search": "../assets/javascripts/workers/search.780af0f4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
     
     
-      <script src="../assets/javascripts/bundle.f11ae8b1.min.js"></script>
       
-        
-          <script src="../javascripts/mathjax.js"></script>
-        
-      
-        
-          <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-        
-      
-        
-          <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-        
-      
-        
-          <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
-        
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.prune", "navigation.tracking", "navigation.tabs", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "search.share", "header.autohide", "announce.dismiss"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
       
     
   </body>

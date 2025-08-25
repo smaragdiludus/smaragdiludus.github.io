@@ -1,0 +1,8 @@
+sto facendo un sito con mkdocs (e l'estensione Material for mkdocs). Ora ti fornisco tutti i vari file cosi potrai capire la composizione del sito. tieni a menti i file che ti fornisco per tutta la durata della chat così potrai sempre fornirmi la risposta più adatta per il contesto del sito. analizza bene i fiel:
+
+1. file ci.yml:
+2. file mkdocs.yml:
+3. file extra.css che si trova nella cartella docs/stylesheets:
+4. file main.html che si trova nella cartella overrides:
+5. file share.html che si trova nella cartella overrides/partials:
+6. file footer.html che si trova nella cartella overrides/partials:

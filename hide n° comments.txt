@@ -1,0 +1,36 @@
+/*
+/* I seguenti quattro blocchi di codice servono a nascondere "o comments" prima del blocco dei commenti
+/*
+/* --- Giscus wrapper: mantiene le tue regole attuali --- */
+.giscus-wrapper {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;   /* necessario per il pseudo-element overlay */
+}
+
+/* assicurati che l'iframe si adatti */
+.giscus-wrapper iframe[src*="giscus.app"] {
+  width: 100% !important;
+  display: block;
+}
+
+/* overlay che copre la parte superiore dell'iframe (la "testata") */
+.giscus-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;               /* regola questo valore per adattarlo all'altezza dell'intestazione */
+  background: #ffffff;        /* colore della riga che copre (light mode) */
+  pointer-events: none;       /* non impedisce clic sugli elementi sottostanti */
+  z-index: 20;
+}
+
+/* colore dell'overlay in dark mode (se usi tema scuro) */
+@media (prefers-color-scheme: dark) {
+  .giscus-wrapper::before {
+    background: #111111;
+  }
+}

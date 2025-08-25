@@ -1,0 +1,76 @@
+<hr>
+
+<div style="display:flex; align-items:center; gap:1rem; margin-top:1rem;">
+  <!-- Bottone Share -->
+  <button id="shareButton" class="share-btn" style="background:none; border:none; cursor:pointer; font-size:1.5rem; color:#01ab91;">
+    <span class="material-icons">share</span>
+  </button>
+
+  <!-- Link Subscribe -->
+  <a href="https://forms.gle/81QTtwV9HiRb8o3y6" 
+     target="_blank" 
+     class="subscribe-link"
+     style="font-size:1rem; font-weight:bold; color:#01ab91; text-decoration:none;">
+    subscribe
+  </a>
+</div>
+
+<br>
+
+<style>
+.share-btn {
+    color: #01ab91;      /* colore icona normale */
+    font-size: 2rem;   /* dimensione icona */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.share-btn:hover {
+    color: #009688;      /* colore icona al passaggio */
+}
+</style>
+
+<script>
+function setupShareButton() {
+    const shareButton = document.getElementById("shareButton");
+    if (!shareButton) return false;
+
+    shareButton.onclick = async () => {
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: document.title,
+                    url: window.location.href
+                });
+                console.log("Condivisione riuscita");
+            } catch (err) {
+                console.log("Condivisione annullata o errore:", err);
+            }
+        } else {
+            try {
+                await navigator.clipboard.writeText(window.location.href);
+                alert("Link copiato negli appunti!");
+            } catch (err) {
+                alert("Impossibile copiare il link");
+            }
+        }
+    };
+    return true;
+}
+
+function initShareButton() {
+    if (!setupShareButton()) {
+        setTimeout(initShareButton, 100); // riprova ogni 100ms finché il pulsante non esiste
+    }
+}
+
+// Avvio al caricamento DOM
+document.addEventListener("DOMContentLoaded", initShareButton);
+
+// Aggiorna ad ogni navigazione interna (Material for MkDocs)
+document$.subscribe(() => {
+    initShareButton();
+});
+</script>
