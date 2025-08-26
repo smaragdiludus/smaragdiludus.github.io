@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
+{% block head %}
+  {{ super() }}
+{% endblock %}
+
 {% block content %}
   {{ super() }}
-  {% include "partials/share.html" %}
-
 {% endblock %}
