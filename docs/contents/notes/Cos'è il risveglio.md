@@ -1,7 +1,7 @@
 ---
 ID: 202208251619
 date: 25/08/2022 16:19 
----
+
 #mind
 
 hub:: [[T_La crisi come risveglio e la nascita della consapevolezza]]
@@ -11,7 +11,7 @@ crossLink::
 emergence:: [[§_Ogni evoluzione è caratterizzata da un balzo discontinuo]]
 
 cluster:: [[_consapevolezza]] [[_risveglio]]
-
+---
 
 # Cos'è il risveglio
 
