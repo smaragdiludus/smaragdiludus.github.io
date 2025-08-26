@@ -10,11 +10,14 @@
 }
 
 
-/* Titoli 
-.md-content h1 { font-size: 2.5em; }
-.md-content h2 { font-size: 2em; }
-.md-content h3 { font-size: 1.75em; }
-*/
+/* Titoli*/ 
+.md-content h1 { font-size: 1.8em; }
+.md-content h2 { font-size: 1.2em; }
+/* Riduce lo spazio sotto i titoli */
+.md-typeset h2 {
+  margin-top: 0.1em !important;
+  margin-bottom: 0.1em !important; /* spazio più piccolo */
+}
 
 
 /*Share button*/
